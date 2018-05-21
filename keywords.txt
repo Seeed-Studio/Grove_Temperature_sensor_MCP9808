@@ -1,0 +1,25 @@
+  
+#######################################
+# Syntax Coloring Map For Grove Temperature sensor MCP9808
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+KEYWORD1    MCP9808
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+KEYWORD2    set_config
+KEYWORD2    set_upper_limit
+KEYWORD2    set_lower_limit
+KEYWORD2    set_critical_limit
+KEYWORD2    set_resolution
+KEYWORD2    get_temp
+KEYWORD2    init
+
+#######################################
+# Constants (LITERAL1)
+#######################################
