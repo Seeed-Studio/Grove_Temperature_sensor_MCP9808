@@ -1,7 +1,6 @@
 Grove Temperature sensor MCP9808
 ==============
 
-![MCP9808](https://github.com/linux-downey/Grove_Temperature_sensor_MCP9808/blob/master/MCP9808.png)  
 
 Introduction of sensor
 ----------------------------  

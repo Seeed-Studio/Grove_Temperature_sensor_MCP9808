@@ -161,7 +161,7 @@ MCP9808::MCP9808(u8 IIC_ADDR)
 
 
 
-s32 IIC_OPRTS::IIC_write_byte(u8 reg,u8 byte)
+s32 MCP_IIC_OPRTS::IIC_write_byte(u8 reg,u8 byte)
 {
     Wire.beginTransmission(_IIC_ADDR);
     Wire.write(reg);
@@ -170,7 +170,7 @@ s32 IIC_OPRTS::IIC_write_byte(u8 reg,u8 byte)
 }
 
 
-s32 IIC_OPRTS::IIC_write_16bit(u8 reg,u16 value)
+s32 MCP_IIC_OPRTS::IIC_write_16bit(u8 reg,u16 value)
 {
     Wire.beginTransmission(_IIC_ADDR);
     Wire.write(reg);
@@ -183,7 +183,7 @@ s32 IIC_OPRTS::IIC_write_16bit(u8 reg,u16 value)
 
 
 
-void IIC_OPRTS::IIC_read_byte(u8 reg,u8* byte)
+void MCP_IIC_OPRTS::IIC_read_byte(u8 reg,u8* byte)
 {
     Wire.beginTransmission(_IIC_ADDR);
     Wire.write(reg);
@@ -195,7 +195,7 @@ void IIC_OPRTS::IIC_read_byte(u8 reg,u8* byte)
     
 }
 
-void IIC_OPRTS::IIC_read_16bit(u8 start_reg,u16 *value)
+void MCP_IIC_OPRTS::IIC_read_16bit(u8 start_reg,u16 *value)
 {
     u8 val=0;
     *value=0;
@@ -213,7 +213,7 @@ void IIC_OPRTS::IIC_read_16bit(u8 start_reg,u16 *value)
 
 
 
-void IIC_OPRTS::set_iic_addr(u8 IIC_ADDR)
+void MCP_IIC_OPRTS::set_iic_addr(u8 IIC_ADDR)
 {
     _IIC_ADDR=IIC_ADDR;
 }
