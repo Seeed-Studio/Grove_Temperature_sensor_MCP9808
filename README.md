@@ -1,4 +1,4 @@
-Grove Temperature sensor MCP9808
+Grove Temperature sensor MCP9808  [![Build Status](https://travis-ci.com/Seeed-Studio/Grove_Temperature_sensor_MCP9808.svg?branch=master)](https://travis-ci.com/Seeed-Studio/Grove_Temperature_sensor_MCP9808)
 ==============
 
 
