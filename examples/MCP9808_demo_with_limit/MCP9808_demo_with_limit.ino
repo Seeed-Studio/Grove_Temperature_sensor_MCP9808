@@ -43,7 +43,7 @@ void setup() {
     //Set upper limit is 30°C
     sensor.set_upper_limit(SET_UPPER_LIMIT_ADDR, 0x01e0);
     delay(10);
-    //Set upper limit is 32°C
+    //Set critical limit is 32°C
     sensor.set_critical_limit(SET_CRITICAL_LIMIT_ADDR, 0x0200);
     delay(10);
     //Enable the alert bit.The alert bit outputs low when the temperature value beyond limit.Otherwise stays high.
