@@ -38,6 +38,7 @@ void setup() {
     Serial.begin(115200);
     if (sensor.init()) {
         Serial.println("sensor init failed!!");
+        return;
     }
     Serial.println("sensor init!!");
 }
